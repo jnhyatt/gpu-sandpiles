@@ -1,0 +1,3 @@
+[submodule "sandpiles/3rd-party/glm"]
+	path = sandpiles/3rd-party/glm
+	url = https://github.com/g-truc/glm.git
