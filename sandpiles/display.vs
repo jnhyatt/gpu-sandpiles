@@ -2,9 +2,9 @@
 
 layout (location = 0) in vec2 tc;
 
-out vec2 tc_i;
+smooth out vec2 tci;
 
 void main() {
-	tc_i = tc;
+	tci = tc;
 	gl_Position = vec4(2.0 * tc - 1.0, 0.0, 1.0);
 }
